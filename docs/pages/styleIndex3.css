@@ -1,0 +1,350 @@
+img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+body,html {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	color: #ffffff;
+}
+.wrapper{
+background: url(../img/backgroundCopy.jpg);
+}
+.contener {
+	width: 1160px;
+	min-width: 800px;	
+	position: relative;
+	clip: rect(0px,auto,0px,auto);
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.header {
+	background-image: url(../img/header.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 114px;
+	position: relative;
+	z-index: 10;
+}
+.header a {
+     display: block;
+	 height: 100%;
+}
+
+.clear {
+	clear: both;
+}
+
+.tel_1 {
+	position: absolute;
+	color: #727271;	
+	font-style: oblique;
+	font-size: 21px;	
+	top: 37px;
+	right: 20px;	
+	text-align: center;
+	cursor: default;
+}
+.tel2 {
+	font-style: oblique;
+	color: #727271;	
+	font-size: 21px;	
+	position: absolute;
+	top: 71px;
+	right: 20px;
+	cursor: default;
+}
+
+.contener1 {
+	background-image: url(../img/fon.jpg);
+	background-size: cover;
+	top: -4px;
+	clip: rect(0px,auto,0px,auto);
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	z-index: 0;
+}
+
+.guide {
+	background-image: url(../img/guide_kontakts.png);
+	background-repeat: no-repeat;
+	height: 327px;
+	width: 1150px;
+	position: absolute;
+	z-index: 5;
+	top: 0px;
+}
+.guide2 {
+	background-image: url(../img/guide2.png);
+	background-repeat: no-repeat;
+	height: 84px;
+	width: 109px;
+	position: absolute;
+	z-index: 5;
+	top: 0px;
+	left: 0px;
+}
+
+.menu {
+	background-image: url(../img/li1.png);
+	background-repeat: no-repeat;
+	height: 53px;
+	position: relative;	
+	width: 100%;
+	z-index: 7;
+}
+.menu1{
+	margin: 0px;
+	padding: 0px;
+}
+.menu1 li{
+	display: inline-block;
+	height: 30px;
+	width: 160px;
+	margin-top: 20px;
+	text-align: center;
+	float: right;
+	
+}
+.neosn a {
+	font-size: 19px;
+	color: #e1e1e1;
+	text-decoration: none;
+	margin-top: 5px;
+}
+.osn a {
+	font-size: 19px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	margin-top: 5px;
+	text-shadow: #00fff0 0 0 30px;
+	cursor: default;
+}
+
+.menu1 li a:hover{
+	font-size: 19px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.slider {
+	width: 961px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 6px;
+	height: 266px;
+	z-index:50;
+}
+.slidercontent {
+	position: relative;
+}
+.slidercontent .text h1{
+	position: relative;
+	left: 0px;
+	font-style: normal;
+	font-size: 30px;
+	color: #ffffff;
+	top: 30px;
+	padding: 2px;
+	margin-top: 0px;
+	margin-right: 0px;	
+	margin-left: 0px;
+	
+	
+}.slidercontent .text p{
+	position: relative;
+	left: 0px;	
+	font-size: 30px;
+	font-style: normal;
+	color: #ffffff;	
+	padding: 0px;
+	margin-top: 25px;
+	margin-right: 0px;
+	margin-bottom: 50px;
+	margin-left: 0px;
+}
+.slidercontent .text {
+	font-style: oblique;
+	font-size: 16px;
+	color: #d5d5d5;
+	position: absolute;
+	left: 80px;
+}
+
+.contener2 {
+	background-image: url(../img/conteiner2.png);
+	background-size: contain;
+	position: relative;
+	top: 5px;
+	clip: rect(0px,auto,0px,auto);
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 1px;
+	padding-left: 127px;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	padding-right: 40px;
+}
+.contener2 h2{	
+	font-size: 19px;
+	color: #ffffff;
+}
+
+.contener3 {
+	background-image: url(../img/fon.jpg);
+	background-size: cover;
+	top: -18px;
+	clip: rect(0px,auto,0px,auto);
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-left: 127px;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	padding-right: 40px;
+	position: relative;
+	z-index: 1;
+}
+.contener3 h2{	
+	font-size: 19px;
+	color: #ffffff;
+}
+.map{
+	position: relative;
+	top: -4px;
+}
+.flooter{
+	font-size: 12px;
+	color: #353535;	
+	background-image: url(../img/footer_shadow.png);
+	background-repeat: no-repeat;
+	height: 212px;
+	Margin-top: -70px;
+	position: relative;
+	z-index: 15;
+	padding-top: 25px;
+}
+.flooter h3{
+	font-size: 14px;
+	color: #2a3563;
+	text-align: center;
+	font-weight: bold;	
+}
+
+.footer_center a{
+	text-decoration: none;	
+}
+	
+.footer_left{
+	height: 157px;
+	width: 388px;
+	background-image: url(../img/footer_left.png);
+	background-repeat: no-repeat;	
+	float: left;
+	margin: 0px;
+	position: relative;
+}
+.footer_left p{
+	text-align: right;
+	padding-right: 40px;
+	padding-top: 5px;
+}
+.footer_left_imige{
+	background-image: url(../img/quest.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 157px;
+	width: 223px;
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	z-index: 10;
+}
+.footer_right{
+	height: 157px;
+	width: 381px;
+	background-image: url(../img/footer_right.png);
+	background-repeat: no-repeat;
+	margin: 0px;	
+	float: left;
+	position: relative;
+}
+.footer_right p{
+	text-align: right;
+	padding-right: 40px;
+	padding-top: 5px;
+}
+.footer_right_imige{
+	background-image: url(../img/map.png);
+	background-repeat: no-repeat;
+	height: 157px;
+	width: 223px;
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	z-index: 10;
+}
+.footer_center{	
+	background-image: url(../img/footer_center.png);
+	background-repeat: no-repeat;
+	height: 157px;
+	width: 385px;
+	margin: 0px;
+	float: left;
+	position: relative;
+}
+.text_news{
+	height: 100px;
+	width: 245px;
+	position: relative;
+	float: right;
+	padding-right: 10px;
+}
+.text_news p{
+	color: #353535;
+}
+.footer_center_imige{
+	background-image: url(../img/news.png);
+	background-repeat: no-repeat;
+	height: 143px;
+	width: 95px;
+	position: absolute;
+	left: 20px;
+	top: -20px;
+	z-index: 10;
+}
+.footer_info{	
+	background-image: url(../img/footer_info.png);
+	background-repeat: no-repeat;
+	height: 55px;
+	width: 1146px;
+	position: relative;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding: 0px;
+	
+}
+.footer_info p{
+	text-align: center;
+	padding: 20px;
+	margin: 0px;
+}
